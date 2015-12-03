@@ -1,0 +1,147 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+	color: #2bbbad;
+}
+
+p {
+	line-height: 2rem;
+}
+
+.button-collapse {
+	color: #26a69a;
+}
+
+.parallax-container {
+	min-height: 520px;
+	line-height: 1;
+	height: auto;
+	color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+	width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+	.parallax-container .section {
+		position: absolute;
+		top: 40%;
+	}
+	#index-banner .section {
+		top: 10%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#index-banner .section {
+		top: 0;
+	}
+}
+
+.icon-block {
+	padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+footer.page-footer {
+	margin: 0;
+}
+
+body {
+	padding-top: 64px;
+	background-color: white;
+}
+
+.navbar-fixed {
+	top: 0px;
+	position: absolute;
+}
+/***************
+    Nav List
+***************/
+
+.nav-of-contents a:hover {}
+
+.nav-of-contents a.active {
+	background-color: white;
+}
+
+.nav-trans {
+	background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.contact {
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+@font-face {font-family: 'webfont';
+  src: url('//at.alicdn.com/t/5aabir1cpz7u8fr.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/5aabir1cpz7u8fr.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/5aabir1cpz7u8fr.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/5aabir1cpz7u8fr.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/5aabir1cpz7u8fr.svg#思源黑体-极细') format('svg'); /* iOS 4.1- */
+}
+
+
+.web-font {
+	font-family: "webfont" !important;
+	/*font-size: 24px;*/
+	
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {font-family: 'webfont-b';
+  src: url('//at.alicdn.com/t/a94zveoyo008jjor.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/a94zveoyo008jjor.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/a94zveoyo008jjor.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/a94zveoyo008jjor.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/a94zveoyo008jjor.svg#思源黑体-粗') format('svg'); /* iOS 4.1- */
+}
+
+
+
+.web-font-b {
+	font-family: "webfont-b" !important;
+	/*font-size: 16px;*/
+	
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {font-family: 'webfont-bb';
+  src: url('//at.alicdn.com/t/h43410aac8jb57b9.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/h43410aac8jb57b9.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/h43410aac8jb57b9.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/h43410aac8jb57b9.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/h43410aac8jb57b9.svg#NotoSansHans-Black') format('svg'); /* iOS 4.1- */
+}
+
+
+.web-font-bb {
+	font-family: "webfont-bb" !important;
+	/*font-size: 16px;*/
+	
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
