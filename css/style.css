@@ -33,6 +33,10 @@ p {
 @media only screen and (max-width: 992px) {
 	.parallax-container .section {
 		position: absolute;
+		top: 40%;
+	}
+	.parallax-container .section-nav{
+		position: absolute;
 		top: 10%;
 	}
 	#index-banner .section {
